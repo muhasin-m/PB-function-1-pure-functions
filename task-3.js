@@ -7,9 +7,7 @@ Transform it into a pure function so that the console.log()
 at the bottom give the correct result
 */
 
-let string = "hey";
-
-function addDot() {
+function addDot(string) {
     return string + ".";
 }
 

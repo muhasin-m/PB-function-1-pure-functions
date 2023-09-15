@@ -7,10 +7,11 @@ Transform it into a pure function so that the console.log()
 at the bottom give the correct result
 */
 
-let sum = 0;
+let sum = 10;
 
 function add(a, b) {
     sum = a + b;
+    return sum;
 }
 
 console.log(sum); // 10

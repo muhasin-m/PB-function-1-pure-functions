@@ -7,9 +7,7 @@ Transform it into a pure function so that the console.log()
 at the bottom give the correct result
 */
 
-let n = 8;
-
-function square() {
+function square(n) {
     return Math.pow(n, 2);
 }
 
